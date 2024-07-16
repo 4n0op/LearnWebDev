@@ -18,6 +18,9 @@
       .tag {
         font-weight: bold;
       }
+      .redirect {
+
+      }
     </style>
     <!--<style> is used in CSS to make the front end of your website look better-->
     <!--When we used img under style it allows us to edit how our picture looks to the user. So we used width to make the image look smaller.-->
@@ -30,15 +33,17 @@
   </head>
   <body>
     Hey! Welcome to learning website development!
-    <img
-      src="Images/Screenshot_2023-03-21_at_5.38.28_PM.jpg"
-      alt="Image of me!"
-    />
+    <a href="about.html"></a>
+    <!--This would be used to link to another file in the same folder.-->
+    <a class="redirect" href="Testing Folder/about.html">
+        <img  src="Images/photo.jpg" alt="Photo">
+    </a>
+    <!--If the file was in a different folder you would put the folder name in front and then add the file name.-->
     <!--<img src""> is used to display image files in the folder and <alt=""> is used whenever the image is unable to load-->
     <p class="tag">@anoop_ready</p>
     <!--"</p>"" represents a new small body of text-->
     <p>I love Web Development!</p>
-    <!--Make sure you spread out your lines so it's easier to read!-->
   </body>
 </html>
+<!--Make sure you spread out your lines so it's easier to read!-->
 <!--To make your coding experience much easier make sure to download the following extensions - Live Server & Prettier-->
