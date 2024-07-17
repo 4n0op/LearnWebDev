@@ -1,0 +1,24 @@
+/*To differentiate comments from code look at words that are in /*(word)*/
+h1 {
+    color: green;
+}
+.black {
+    color: rgba(0, 0, 0, 0.5);
+    color: #000000;
+    color: hsl(0, 0%, 0)
+}
+/*One cool part about CSS is the fact that you can write a new style and your website will save whatever you wrote last.*/
+/*One way to get specific colors is to use hex codes, rgb (red green blue), or hsl (hue saturation lightness).*/
+.box {
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    margin: 50px;
+    border: 10px solid black;
+    background-color: red;
+}
+/*This is a box model, the height and width show how many pixels are able to be used for the content.
+/*Padding is the space between the context and the border of the box.*/
+/*Margin shows the space from the box to the content outside.*/
+/*Border is the line around the box.*/
+/*And then background color just shows the color inside the box.*/
